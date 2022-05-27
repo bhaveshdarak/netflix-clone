@@ -1,20 +1,18 @@
-import { query, QuerySnapshot } from 'firebase/firestore/lite';
-import React, { useEffect, useState } from 'react'
+
+import React from 'react'
 import "./PlansScreen.css"
 
 function PlansScreen() {
-// const [products,setProducts] = useState([]);
 
-
-//  useEffect(() => {
-//    db.collection('products').where('active','==',true)
-//    .get()
-//    .then(QuerySnapshot)
-//  },[])
 
   return (
-    <div className='plansScreen'>
+    <div className='plansScreen_plan'>
+          <div className="planScreen_info">
+             <h5>Product Name</h5>
+             <h6>Product Description</h6>
+          </div>
 
+           <button>Subscribe</button>
     </div>
   )
 }

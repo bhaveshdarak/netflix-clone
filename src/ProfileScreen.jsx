@@ -5,8 +5,9 @@ import { auth } from './firebase'
 import Nav from './Nav'
 import PlansScreen from './PlansScreen'
 import "./ProfileScreen.css"
+
 function ProfileScreen() {
-    const user = useSelector(selectUser)
+    const user = useSelector(selectUser);
   return (
     <div  className='profileScreen'> 
     <Nav />
